@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "runtimeadvancements",
+  "version": "${version}",
+  "name": "RuntimeAdvancements",
+  "description": "Easy to use multiblocks for Polymer",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/runtimeadvancements/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.feintha.runtimeadvancements.RuntimeAdvancements"
+    ]
+  },
+  "mixins": [
+    "runtimeadvancements.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "rta.accesswidener"
+}

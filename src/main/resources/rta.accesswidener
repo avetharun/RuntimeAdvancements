@@ -1,0 +1,4 @@
+accessWidener v1 named
+accessible field net/minecraft/server/ServerAdvancementLoader registries Lnet/minecraft/registry/RegistryWrapper$WrapperLookup;
+
+accessible field net/minecraft/server/ServerAdvancementLoader advancements Ljava/util/Map;
